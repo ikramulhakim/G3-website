@@ -44,6 +44,16 @@ font-weight: 400;
 line-height: 26px;
 }
 
+.of{
+    color: var(--Dark-01, #131313);
+font-family: "Work Sans";
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
 header{
     /* width: 1920px;
 height: 1322px; */
@@ -87,7 +97,7 @@ line-height: normal;
     color: var(--Dark-01, #131313);
 text-align: center;
 font-family: "Work Sans";
-font-size: 64px;
+font-size: 4rem;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -152,15 +162,7 @@ line-height: normal;
 
 }
 
-.of{
-    color: var(--Dark-01, #131313);
-font-family: "Work Sans";
-font-size: 45px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
 
-}
 
 .f{
     color: #FF900E;
@@ -176,7 +178,32 @@ line-height: normal;
     width: auto;
 }
 
+.fact-card-container .card{
+    border-radius: 8px;
+border: 1px solid #FF900E;
+padding: 30px;
 
+}
+
+.fact-card-container{
+    display: flex;
+    justify-content: space-around;
+   text-align: center;
+  
+}
+
+.fact-card-container .card-stats{
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fact-card-container .card-title{
+    font-weight: 600;
+    color: #727272;
+    margin-top: 5px;
+}
 
 
 
@@ -188,7 +215,7 @@ line-height: normal;
     header{
         padding: 20px;
     }
-    nav,.team-container {
+    nav,.team-container,.fact-card-container {
         flex-direction: column;
     }
     .teams-image-container{
@@ -199,6 +226,9 @@ grid-template-columns: repeat(1,1fr);
     main{
         margin: 10px 5px;
     }
+    .fact-card-container{
+        gap: 20px;
+    }
     
 }
 
@@ -207,10 +237,13 @@ grid-template-columns: repeat(1,1fr);
     header{
         padding: 50px;
     }
-    nav ,.team-container {
+    nav ,.team-container,.fact-card-container {
         flex-direction: column;
     }
     main{
         margin: 10px 5px;
+    }
+    .fact-card-container{
+        gap: 20px;
     }
 }
