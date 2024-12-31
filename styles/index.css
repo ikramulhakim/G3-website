@@ -192,6 +192,14 @@ padding: 30px;
   
 }
 
+.sponsor-image{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+}
+
 .fact-card-container .card-stats{
     font-size: 2.8rem;
     color: #424242;
@@ -205,8 +213,12 @@ padding: 30px;
     margin-top: 5px;
 }
 
-
-
+.sponsor{
+    text-align: center;
+}
+.sponsor-image img{
+    width: 165px;
+}
 
 /* smallllllllllllllllll device */
 
@@ -215,7 +227,7 @@ padding: 30px;
     header{
         padding: 20px;
     }
-    nav,.team-container,.fact-card-container {
+    nav,.team-container,.fact-card-container ,.sponsor-image{
         flex-direction: column;
     }
     .teams-image-container{
