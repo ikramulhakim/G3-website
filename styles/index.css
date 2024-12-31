@@ -220,6 +220,22 @@ padding: 30px;
     width: 165px;
 }
 
+.foot{
+    color: var(--Dark-02, #424242);
+text-align: center;
+font-family: "Work Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 40px;
+}
+footer{
+    border-radius: 8px;
+background: #FFF4E7;
+height: 100px;
+}
+
 /* smallllllllllllllllll device */
 
 @media screen and (max-width: 576px) {
